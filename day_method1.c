@@ -1,9 +1,11 @@
+//Zeller's Method day calculation from date. 
+
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
 #include <math.h>
 
-int main(){
+int main(){                                                         
     int arr[20];
     int i,n,k,m,y,D,C,F,r,p;
     char str[20];
