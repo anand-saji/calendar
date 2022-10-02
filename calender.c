@@ -36,8 +36,7 @@ int main(){
     else{
         r=0;
     }
-
-   
+  
     switch(r){
         case 0 : printf("Sunday");
             break;
