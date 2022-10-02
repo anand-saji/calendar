@@ -1,14 +1,14 @@
+//Key value method for calculating day from date
+
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
 #include <math.h>
 
-
 int main(){
-
     int k,m,y,x=0,p1,p2,p3,p4,p5,r,d,c;
 
-printf("Enter day of month : ");
+    printf("Enter day of month : ");
     scanf("%d",&k);
     printf("Enter month : ");
     scanf("%d",&m);
@@ -43,7 +43,7 @@ printf("Enter day of month : ");
     if (((y % 4 == 0) && (y % 100!= 0)) || (y%400 == 0)){           //check whether leap year
         x=1;}
     
-    if(y>=2500)
+    if(y>=2500)                     
         y=y-800;
     if(y>=2100)
         y=y-400;
