@@ -25,7 +25,8 @@ int main(){
     C=y/100;
     D=y%100;
     
-    F=k+(((13*m)-1)/5)+D+(D/4)+(C/4)-(2*C);
+    F=k+(((13*m)-1)/5)+D+(D/4)+(C/4)-(2*C);             //Zeller's Rule for calculation
+ 
     if(F<0){
         F=F*-1;
         p=F%7;
